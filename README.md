@@ -18,7 +18,7 @@ This file will create a container with all you need for development ***BUT*** th
 
 ## Usage
 1. build the image with:
-		(sudo) docker build -t [your_name]/appinventor-dev
+		(sudo) docker build -t [your_name]/appinventor-dev .
 
 	This will create a docker container with all the software needed.
 
