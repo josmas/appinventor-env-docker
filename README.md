@@ -25,6 +25,9 @@ This file will create a container with all you need for development **_BUT_** th
 
    This will create a docker container with all the software needed.
 
+   NOTE: if you are using an arm processor on mac, user the platform flag as follows:
+   (sudo) docker build --platform linux/amd64 -t [your_name]/appinventor-dev .
+
 2. Modify the script _runBash.sh_
 
    You should change [your_name]/appinventor-dev for the name you have used when building the container. Also, you should modify the location of your app inventor sources as you have cloned them onto your local machine (my path is /home/jos/code/MIT/ so that should be modified in the script).
